@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyHub.Api", "SocietyHub.Api\SocietyHub.Api.csproj", "{11BE0C2F-34D2-4C59-AD66-B886C982A875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyHub.Application", "SocietyHub.Application\SocietyHub.Application.csproj", "{F53D6BF7-D954-40C5-A9F0-7976ADC25406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyHub.Infrastructure", "SocietyHub.Infrastructure\SocietyHub.Infrastructure.csproj", "{F417471E-D607-4C44-9C59-5EF7E813C3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyHub.Domain", "SocietyHub.Domain\SocietyHub.Domain.csproj", "{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocietyHub_Backend", "SocietyHub_Backend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocietyHub_Frontend", "SocietyHub_Frontend", "{E3002DAF-C98B-43D8-8D47-542ECE80B0E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocietyHub_Database", "SocietyHub_Database", "{7C2FA31B-3076-4B86-AADB-16F03BE41545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyHub.Client", "SocietyHub-Client\SocietyHub.Client.csproj", "{F50F275B-07F5-10FF-898E-2B0FE2BD89C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11BE0C2F-34D2-4C59-AD66-B886C982A875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BE0C2F-34D2-4C59-AD66-B886C982A875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BE0C2F-34D2-4C59-AD66-B886C982A875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BE0C2F-34D2-4C59-AD66-B886C982A875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53D6BF7-D954-40C5-A9F0-7976ADC25406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53D6BF7-D954-40C5-A9F0-7976ADC25406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53D6BF7-D954-40C5-A9F0-7976ADC25406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53D6BF7-D954-40C5-A9F0-7976ADC25406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F417471E-D607-4C44-9C59-5EF7E813C3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F417471E-D607-4C44-9C59-5EF7E813C3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F417471E-D607-4C44-9C59-5EF7E813C3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F417471E-D607-4C44-9C59-5EF7E813C3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50F275B-07F5-10FF-898E-2B0FE2BD89C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50F275B-07F5-10FF-898E-2B0FE2BD89C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50F275B-07F5-10FF-898E-2B0FE2BD89C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11BE0C2F-34D2-4C59-AD66-B886C982A875} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F53D6BF7-D954-40C5-A9F0-7976ADC25406} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F417471E-D607-4C44-9C59-5EF7E813C3F4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FE64A20D-AEE7-4D6B-8928-20EA112DCC7E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F50F275B-07F5-10FF-898E-2B0FE2BD89C6} = {E3002DAF-C98B-43D8-8D47-542ECE80B0E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {861DB691-2D54-4D2A-AF9A-71CA0F8E7697}
+	EndGlobalSection
+EndGlobal

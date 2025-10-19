@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Angular (npm start)": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\DELL\\AppData\\Roaming\\npm\\npm.cmd",
+      "commandLineArgs": "start",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:4200",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

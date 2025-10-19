@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!-- Target .NET 8 just for solution compatibility -->
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- Prevent .NET from trying to compile Angular files -->
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NoWin32Manifest>true</NoWin32Manifest>
+
+    <!-- Skip build since Angular is not .NET code -->
+    <NoBuild>true</NoBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include all files so they show up in Visual Studio -->
+    <None Include="**/*" Exclude="bin/**;obj/**;node_modules/**" />
+  </ItemGroup>
+
+  <!-- Empty build target to prevent the NoBuild conflict -->
+  <Target Name="Build" />
+
+  <!-- Optional: run Angular build automatically when publishing the backend -->
+  <Target Name="PublishAngular" BeforeTargets="Publish">
+    <Exec Command="npm install" WorkingDirectory="$(ProjectDir)" />
+    <Exec Command="npm run build -- --configuration production" WorkingDirectory="$(ProjectDir)" />
+    <Copy SourceFiles="@(AngularFiles)" DestinationFolder="$(SolutionDir)SocietyHub.API\wwwroot\" />
+  </Target>
+
+</Project>
